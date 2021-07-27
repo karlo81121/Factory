@@ -1,0 +1,136 @@
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    margin-top: 59px;
+}
+
+
+.traka {
+    border: 1px solid #286eb8;
+    background-color: #286eb8;
+    width: 1920px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.traka h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 0px;
+    margin-left: 150px;
+}
+
+
+#dodaj_jelo {
+    color: #FFFFFF;
+    position: relative;
+    top: 76px;
+    left: 1150px;
+    background-color: #286eb8;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+
+
+#refresh {
+    color: #FFFFFF;
+    background-color: #286eb8;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 76px;
+    left: 800px;
+    z-index: 2;
+}
+
+
+#refresh:hover {
+    cursor: pointer;
+}
+
+
+#dodaj_jelo:hover {
+    cursor: pointer;
+}
+
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #286eb8;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.granica {
+    width: 50%;
+}
+
+
+#kutija {
+    margin-top: 88px;
+}
+
+
+#kutija h2, p {
+    margin-left: 500px;
+    max-width: 905px;
+    word-wrap:break-word;
+}
+
+
+.pocetna_linija {
+    width: 100%;
+    position: relative;
+    top: 42px;
+}
+
+
+#povratak {
+    color: #FFFFFF;
+    background-color: #286eb8;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+    position: relative;
+    top: -36px;
+    left: 760px;
+    cursor: pointer;
+}
+
+
+#google_prevoditelj {
+    position: relative;
+    top: -95px;
+    left: 1500px;
+}
+
+

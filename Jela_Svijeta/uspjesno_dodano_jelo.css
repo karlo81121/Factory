@@ -1,0 +1,25 @@
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: #286eb8;
+    text-align: center;
+    line-height: 800px;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -370px;
+}
