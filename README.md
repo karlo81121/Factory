@@ -1,4 +1,4 @@
-Priloženu web aplikaciju sam radio pomocu HTML, CSS i PHP tehnologija. Koristio sam XAMPP
+Priloženu web aplikaciju sam radio pomoću HTML, CSS i PHP tehnologija. Koristio sam XAMPP
 cross platformu za prikaz web aplikacije na lokalnom serveru. Web aplikacija omogucuje dodavanje 
 željenog jela pritiskom na "Dodaj jelo". Kako bi unijeli jelo potrebno je popuniti obrazac na 
 stranici Dodaj jelo. Isto tako, potrebno je pratiti napomenu prilikom unošenja jela. 
