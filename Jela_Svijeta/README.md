@@ -8,4 +8,4 @@ nalaze se gumbi poništi (brisanje unesenih podataka u obrascu) i dodaj (upisiva
 možemo poslužiti da bi se vratili na početnu stranicu. Nakon objave jela, dolazimo na početnu stranicu gdje su ona objavljena. Ukoliko želimo nešto određeno
 možemo pretražiti jela po tagovima koji su uneseni u bazu podataka. Ukoliko ne unesemo pojam u tražilicu dobit ćemo povratnu informaciju kako je prije traženja jela
 potrebno unjeti tag ili pojam. Također, prilikom pretraživanja jela, možemo odabrati koliko jela želimo prikazati na početnoj stranici upisom broja kod "Prikaz po stranici".
-Kako je bilo poželjno da je aplikacija višejezična, jela se mogu prevesti na različite jezike, korištenjem google prevoditelj alata koji se nalazi na stranici. 
+Imena svih varijabli, klasa i ostalog su na engleskom jeziku. Komunikacija s bazom podataka odvojena je u zasebnu datoteku. Dodana je SQL dump tablica ili SQL file koji sadrži SQL naredbe za kreiranje baze podataka korištene u ovom zadatku. 
