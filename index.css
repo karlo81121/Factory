@@ -1,0 +1,151 @@
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+
+.line {
+    border: 1px solid #286eb8;
+    background-color: #286eb8;
+    width: 1920px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.line h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 0px;
+    margin-left: 150px;
+}
+
+
+#add_meal {
+    color: #FFFFFF;
+    position: relative;
+    top: 76px;
+    left: 950px;
+    background-color: #286eb8;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+
+
+#refresh {
+    color: #FFFFFF;
+    background-color: #286eb8;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 76px;
+    left: 800px;
+    z-index: 2;
+}
+
+
+#refresh:hover {
+    cursor: pointer;
+}
+
+
+#add_meal:hover {
+    cursor: pointer;
+}
+
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #286eb8;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.start_line {
+    width: 100%;
+    position: relative;
+    top: 111px;
+}
+
+
+.border {
+    width: 50%;
+}
+
+
+#box {
+    margin-top: 200px;
+}
+
+
+#box h2, p {
+    margin-left: 500px;
+    max-width: 905px;
+    word-wrap:break-word;
+}
+
+
+#tags {
+    width: 225px;
+    height: 25px;
+    margin: 8px;
+    position: relative;
+    top: 120px;
+    left: 500px;
+}
+
+
+#search {
+    color: #FFFFFF;
+    background-color: #286eb8;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+    position: relative;
+    top: 120px;
+    left: 310px;
+    cursor: pointer;
+}
+
+
+#number_of_posts {
+    width: 35px;
+}
+
+
+#number_of_posts, label {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    position: relative;
+    top: 122px;
+    left: 950px;
+}
+

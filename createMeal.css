@@ -1,0 +1,158 @@
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+
+.line {
+    border: 1px solid #286eb8;
+    background-color: #286eb8;
+    width: 1920px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+.line h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0px;
+    margin-left: 150px;
+}
+
+
+input[type=text]{
+    width: 225px;
+    height: 25px;
+    margin: 8px;
+}
+
+
+input[type=number]{
+    width: 225px;
+    height: 25px;
+    margin: 8px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+input[type=reset] {
+    color: #FFFFFF;
+    background-color: #286eb8;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -216px;
+    left: 405px;
+    cursor: pointer;
+}
+
+
+input[type=submit] {
+    color: #FFFFFF;
+    background-color: #286eb8;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -200px;
+    left: 405px;
+    cursor: pointer;
+}
+
+
+select {
+    width: 233px;
+    height: 30px;
+    margin: 8px;
+}
+
+
+#box {
+    border: 1px solid #FFFFFF;
+    width: 670px;
+    height: 560px;
+    -webkit-box-shadow: 0 0 10px #CCCCCC;
+    box-shadow: 0 0 10px #CCCCCC;
+    position: relative;
+    top: 150px;
+    left: 30%;
+}
+
+
+#box h2 {
+    color: #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #000000;
+    padding-left: 62px;
+    padding-right: 40px;
+}
+
+
+/****** START OF POSITIONING ENTRIES ********/
+
+
+#name {
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+
+#number_of_ingredients {
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+
+select {
+    position: relative;
+    top: -78px;
+    left: 340px;
+}
+
+
+#ingredients {
+    position: relative;
+    top: -25px;
+    left: 88px;
+}
+
+#description {
+    position: relative;
+    top: -184px;
+    left: 348px;
+}
+
+#tag {
+    position: relative;
+    top: -180px;
+    left: 81px;
+}
+
+
+/****** END OF POSITIONING ENTRIES ********/

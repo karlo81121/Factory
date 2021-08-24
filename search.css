@@ -1,0 +1,87 @@
+
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    margin-top: 59px;
+}
+
+
+.line {
+    border: 1px solid #286eb8;
+    background-color: #286eb8;
+    width: 1920px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.line h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 0px;
+    margin-left: 150px;
+}
+
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #286eb8;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.border {
+    width: 50%;
+}
+
+
+#box {
+    margin-top: 88px;
+}
+
+
+#box h2, p {
+    margin-left: 500px;
+    max-width: 905px;
+    word-wrap:break-word;
+}
+
+
+.start_line {
+    width: 100%;
+    position: relative;
+    top: 42px;
+}
+
+
+#comeback {
+    color: #FFFFFF;
+    background-color: #286eb8;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #286eb8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+    position: relative;
+    top: -36px;
+    left: 760px;
+    cursor: pointer;
+}

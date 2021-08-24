@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Dodaj jelo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="createMeal.css">
+
+    </head>
+
+    <body>
+
+        <div class="line">
+            <a href="index.php"><i><h1>Jela Svijeta</h1></i></a>
+        </div>
+
+        <div id="box">
+
+            <i><h2>Dodaj jelo</h2></i>
+
+            <p><i>NAPOMENA</i></p>
+            <p>
+                Sve sastojke pisati prvim velikim slovom, odvojene zarezom te razmakom nakon zareza 
+                bez točke na kraju. (pr. Bosiljak, Sol, Biber,...).
+                Ukoliko ne postoji kategorija u koju pripada jelo, odabrati kosu crtu.
+                Tagove unjeti malim slovima, odvojene zarezom.
+            </p>
+
+            <form action="enterMeal.php" method="POST" id="form_pozicija">
+
+                <input type="text" name="name" id="name" placeholder="Naziv jela" required>
+                <br>
+                <input type="text" name="number_of_ingredients" id="number_of_ingredients" placeholder="Broj sastojaka" min="1" required>
+                <br>
+
+                <select option="category" name="category" id="category" required>
+                    <option value="odaberi" selected disabled>Odaberi kategoriju jela</option>
+                    <option value="Nema">/</option>
+                    <option value="Glavno jelo">Glavno jelo</option>
+                    <option value="Predjelo">Predjelo</option>
+                    <option value="Prilog">Prilog</option>
+                    <option value="Desert">Desert</option>
+                </select>
+            
+                <br>
+                <textarea name="ingredients" id="ingredients" placeholder="Svi sastojci" rows="7" cols="30" required></textarea>
+                <br>
+                <textarea name="description" id="description" placeholder="Opis" rows="10" cols="30" required></textarea>
+                <br>
+                <input type="text" name="tag" id="tag" placeholder="Dodaj tagove" required>
+                <br>
+                <input type="reset" name="reset" id="reset" value="Poništi">
+                <br>
+                <input type="submit" name="submit" id="submit" value="Dodaj">
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
